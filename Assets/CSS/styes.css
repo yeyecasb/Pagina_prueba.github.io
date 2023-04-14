@@ -1,0 +1,26 @@
+.contenedor{
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+    background-color: blue;
+    opacity: 0.7;
+    padding: 4%;
+    border-radius: 2%;
+}
+.confirmacion{
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+    padding: 4%;
+    border-radius: 2%;
+    text-align: center;
+}
+
+.jumbotron{
+    width: 80%;
+    margin:auto;
+    margin-top: 6%;
+    padding: 5%;
+    background-color: #007bff;
+    color: #ffffff;
+}
