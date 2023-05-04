@@ -7,146 +7,252 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
     <link rel="stylesheet" href="Assets/CSS/styes.css">
-        
-    <title>Hello, world!</title>
+
+    <title>Los Notros</title>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
-        <div class="container">
-            <a href="#" class="navbar-brand">
-                Claudio Santibanez
-            </a>
-
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal"
-                aria-controls="menu principal" aria-expanded="false" aria-label="desplegar menu">
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/Los_Notros_Hor_2sf.png" height="40" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collpase navbar-collapse" id="menu-principal">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.html" class="nav-link active">Inicio</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">¿Quién Soy?</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Proyectos</a></li>
-                    <li class="nav-item"><a href="formulario.html" class="nav-link">Contacto</a></li>
-                </ul>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" href="#servicios">Servicios</a>
+                    <a class="nav-link" href="#equipo">Equipo</a>
+                    <a class="nav-link disabled" href="contacto.html">Contacto</a>
+                </div>
             </div>
         </div>
     </nav>
 
-    <!-- Seccion Quien soy-->
-    <section>
-        <div class="container pt-4">
+    <!--<section>
+        <div class="container">
+            <div id="carouselExampleDark" class="col-12 carousel carousel-dark slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                  <img src="images/topo2.jpg" class="d-block w-100" alt="..." >
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-white">First slide label</h5>
+                    <p class="text-white">Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="images/planos1.2.png" class="d-block w-100" alt="..." >
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="images/topo1.jpg" class="d-block w-100" alt="..." >
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/planos2.2.png" class="d-block w-100" alt="..." >
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+      </section>-->
+    <!-- Seccion Quienes somos-->
+    <section class="bg-success">
+        <div class="container pt-4 text-white">
             <div class="row">
                 <div class="col-12 col-md-6 mt-5">
-                    <img src="Assets/images/desarrollador.svg" class="img-fluid mt-4 mb-md-0">
+                    <img src="images/motion-gf333e4130_1280.jpg" class="img-fluid mt-4 mb-md-0 rounded" width="460">
                 </div>
-                <div class="col-12 col-md-6 text-center py-4 mt-5 align-self-md-center align-middle">
-                    <h1 class="font-weight-bold text-primary text-danger">¿Quien Soy?</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iste et aliquam quia unde quo a
-                        delectus nemo libero reiciendis quod error quasi impedit laboriosam eveniet nisi, laborum soluta
-                        numquam!</p>
-                    <a href="#" class="btn btn-danger">Leer más</a>
+                <div class="col-12 col-md-6 text-center py-2 align-self-md-center align-middle">
+                    <h1 class="font-weight-bold text-white">¿Quiénes Somos?</h1>
+                    <p>Somos una consultora especializada en la prestación
+                        de servicios de regularización de títulos de dominio, subdivisión de predios urbanos y rurales,
+                        inscripción de derechos de aprovechamiento de agua, y reclamaciones administrativas contra la
+                        autoridad.</p>
+
+                    <p>Contamos con un equipo de profesionales altamente capacitados y experimentados en el ámbito
+                        jurídico, de urbanismo y de la
+                        construcción, con una amplia trayectoria en los ministerios de Bienes Nacionales y de Vivienda y
+                        Urbanismo.</p>
+
+                    <p>Nuestro equipo está compuesto por profesionales que ponen a su disposición su
+                        conocimiento y habilidades técnicas para brindarle soluciones efectivas y personalizadas a cada
+                        uno de sus requerimientos.</p>
+
+                    <p>Nos comprometemos a trabajar con seriedad, eficiencia y profesionalismo, siempre orientados a la
+                        satisfacción
+                        de nuestros clientes y a la resolución de sus necesidades en el ámbito inmobiliario.</p>
+
+                    <p>Confíe en nosotros, somos su mejor opción para regularizar y legalizar su propiedad, asegurando
+                        su tranquilidad
+                        y certeza jurídica.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--Seccion avatar-->
-    <section class="text-center py-4 text-white bg-danger">
+    <!--Seccion Servicios-->
+    <section class="text-center py-4 text-black" id="servicios">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <img src="Assets/images/avatar.png" class="img-fluid mt-2 rounded-circle mb-4" width="260"
-                        height="auto">
-                    <p class="h4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione a dolorem
-                        necessitatibus aliquid dolore impedit harum, inventore repudiandae beatae mollitia perspiciatis
-                        nam error ipsa, vitae pariatur libero quasi illum accusantium?</p>
-                    <p class="font-style-italic h6">Tomás Mendez</p>
-                </div>
+            <h1 class="font-weight-bold text-black">Servicios</h1>
+            <div class="row mx-auto">
+                <article class="col-12 col-md-6 my-3">
+                    <div class="card w-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Regularización de Títulos de Dominio</h5>
+                            <p class="card-text">Este proceso tiene como objetivo legalizar la propiedad
+                                de un inmueble que no cuenta con los documentos necesarios para acreditar su
+                                titularidad y que, por lo tanto, no puede ser vendido, heredado o utilizado para
+                                fines
+                                legales.</p>
+                            <a href="#" class="btn btn-success">Ver Más</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-12 col-md-6  my-3">
+                    <div class="card col-12 col-md-6 w-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Subdivisión de Predios</h5>
+                            <p class="card-text">El objetivo de este proceso es la división de una propiedad, ya sea
+                                urbana o rural,
+                                en varias partes o parcelas, con el fin de venderlas, heredarlas o utilizarlas
+                                para distintos fines legales.</p>
+                            <a href="#" class="btn btn-success">Ver Más</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-12 col-md-6  my-3">
+                    <div class="card col-12 col-md-6w-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Inscripción de Derechos de Aprovechamiento de Agua</h5>
+                            <p class="card-text">La inscripción de derechos de aprovechamiento de aguas es
+                                un servicio clave que ofrecemos en nuestra consultora, el cual se enfoca en
+                                legalizar
+                                y regularizar la utilización del recurso hídrico en un terreno determinado.</p>
+                            <a href="#" class="btn btn-success">Ver Más</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-12 col-md-6  my-3">
+                    <div class="card col-12 col-md-6w-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reclamaciones Administrativas Ley General de Urbanismo y Construcción
+                            </h5>
+                            <p class="card-text">Nos encargamos de asesorar a nuestros clientes en la preparación
+                                y presentación de las reclamaciones administrativas, así como de representarlos ante
+                                la autoridad y tribunales correspondientes en caso de ser necesario.</p>
+                            <a href="#" class="btn btn-success">Ver Más</a>
+                        </div>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <!--Seccion Proyectos-->
-    <section>
+    <!--Seccion Equipo-->
+    <section id="equipo">
         <div class="container">
-            <h1 class="display-5 text-center font-weight-bold mt-2">Mis Proyectos</h1>
+            <h1 class="text-center font-weight-bold mt-2 text-black">Equipo</h1>
             <div class="row text-center">
-                <article class="col-12 col-md-6 col-lg-3 my-3">
+                <article class="col-12 col-md-4 my-3">
                     <div class="card">
                         <img class="card-img-top" src="Assets/images/proyecto1.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Proyecto 1</h5>
+                            <h4 class="card-title">Luis Cárdenas Toledo</h4>
+                            <h5>Abogado</h5><br>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates
                                 adipisci deleniti numquam? Ipsum provident quibusdam dolor tempore corporis officia
                                 dicta a molestias, laudantium quos ducimus non odit sed asperiores illum?</p>
-                            <a href="#" class="btn btn-danger">Ver proyecto</a>
                         </div>
                     </div>
                 </article>
-                <article class="col-12 col-md-6 col-lg-3 my-3">
+                <article class="col-12 col-md-4 my-3">
                     <div class="card">
                         <img class="card-img-top" src="Assets/images/proyecto2.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Proyecto 2</h5>
+                            <h4 class="card-title">Sebastián Abudoj Rivas</h4>
+                            <h5>Abogado</h5><br>
                             <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, optio
                                 itaque autem non ex corporis repudiandae illum. Earum vero assumenda doloremque, totam
                                 similique explicabo quibusdam, harum aspernatur nihil dolorum amet.</p>
-                            <a href="#" class="btn btn-danger">Ver proyecto</a>
                         </div>
                     </div>
                 </article>
-                <article class="col-12 col-md-6 col-lg-3 my-3">
+                <article class="col-12 col-md-4 my-3">
                     <div class="card">
                         <img class="card-img-top" src="Assets/images/proyecto3.png" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Proyecto 3</h5>
+                            <h4 class="card-title">Claudio Santibáñez Bocaz</h4>
+                            <h5>Ingeniero Constructor</h5><br>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
                                 labore facere consectetur. Nostrum, mollitia eius excepturi quae dolores commodi ex
                                 itaque architecto? Officiis assumenda voluptate similique ducimus. Quibusdam,
                                 necessitatibus laudantium.</p>
-                            <a href="#" class="btn btn-danger">Ver proyecto</a>
                         </div>
                     </div>
-                </article>
-                <article class="col-12 col-md-6 col-lg-3 my-3">
-                    <div class="card">
-                        <img class="card-img-top" src="Assets/images/proyecto4.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Proyecto 4</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cum?
-                                Illum delectus ipsum nobis animi voluptatem neque pariatur omnis iure laudantium
-                                adipisci quia rem harum sunt, eaque eius voluptates beatae.</p>
-                            <a href="#" class="btn btn-danger">Ver proyecto</a>
-                        </div>
+                </article>                
+            </div>
+            <div class="row">
+            <article class="col-12 col-md-4 my-3">
+                <div class="card">
+                    <img class="card-img-top" src="Assets/images/proyecto4.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Proyecto</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cum?
+                            Illum delectus ipsum nobis animi voluptatem neque pariatur omnis iure laudantium
+                            adipisci quia rem harum sunt, eaque eius voluptates beatae.</p>
                     </div>
-                </article>
+                </div>
+            </article>
             </div>
         </div>
     </section>
 
-    <footer class="text-center bg-dark text-white fixed-bottom">
+    <footer class="text-center bg-body-secondary text-black">
         <div>
-            <p>Pie de Página</p>
+            <p>www.notros.cl</p>
+            <p>contacto@notros.cl</p>
+            <p>+569 86435385</p>
         </div>
-</footer>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
 </body>
 
