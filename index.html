@@ -26,8 +26,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    <a class="nav-link" href="#servicios">Servicios</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link nav-item dropdown dropdown-toggle" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Servicios
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="regularizacion.html">Regularización de Títulos de Dominio</a>
+                        </li>
+                        <li><a class="dropdown-item" href="subdivision.html">Subdivisión de Predios</a></li>
+                        <li><a class="dropdown-item" href="derechos_de_agua.html">Inscripción de Derechos de
+                                Aprovechamiento de Agua</a></li>
+                        <li><a class="dropdown-item" href="reclamaciones.html">Reclamaciones Administrativas Ley General
+                                de Urbanismo y Construcción</a></li>
+                    </ul>
                     <a class="nav-link" href="#equipo">Equipo</a>
                     <a class="nav-link disabled" href="contacto.html">Contacto</a>
                 </div>
@@ -35,56 +47,6 @@
         </div>
     </nav>
 
-    <!--<section>
-        <div class="container">
-            <div id="carouselExampleDark" class="col-12 carousel carousel-dark slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="2000">
-                  <img src="images/topo2.jpg" class="d-block w-100" alt="..." >
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5 class="text-white">First slide label</h5>
-                    <p class="text-white">Some representative placeholder content for the first slide.</p>
-                  </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                  <img src="images/planos1.2.png" class="d-block w-100" alt="..." >
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                  </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                  <img src="images/topo1.jpg" class="d-block w-100" alt="..." >
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="images/planos2.2.png" class="d-block w-100" alt="..." >
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                  </div>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-      </section>-->
     <!-- Seccion Quienes somos-->
     <section class="bg-success">
         <div class="container pt-4 text-white">
@@ -148,7 +110,7 @@
                                 urbana o rural,
                                 en varias partes o parcelas, con el fin de venderlas, heredarlas o utilizarlas
                                 para distintos fines legales.</p>
-                            <a href="#" class="btn btn-success">Ver Más</a>
+                            <a href="subdivision.html" class="btn btn-success">Ver Más</a>
                         </div>
                     </div>
                 </article>
@@ -161,7 +123,7 @@
                                 un servicio clave que ofrecemos en nuestra consultora, el cual se enfoca en
                                 legalizar
                                 y regularizar la utilización del recurso hídrico en un terreno determinado.</p>
-                            <a href="#" class="btn btn-success">Ver Más</a>
+                            <a href="derechos_de_agua.html" class="btn btn-success">Ver Más</a>
                         </div>
                     </div>
                 </article>
@@ -174,7 +136,7 @@
                             <p class="card-text">Nos encargamos de asesorar a nuestros clientes en la preparación
                                 y presentación de las reclamaciones administrativas, así como de representarlos ante
                                 la autoridad y tribunales correspondientes en caso de ser necesario.</p>
-                            <a href="#" class="btn btn-success">Ver Más</a>
+                            <a href="reclamaciones.html" class="btn btn-success">Ver Más</a>
                         </div>
                     </div>
                 </article>
@@ -243,9 +205,11 @@
 
     <footer class="text-center bg-body-secondary text-black">
         <div>
-            <p>www.notros.cl</p>
-            <p>contacto@notros.cl</p>
-            <p>+569 86435385</p>
+            <h6>www.notros.cl</h6>
+            <h6>contacto@notros.cl</h6>
+            <h6>+569 86435385</h6>
+            <h6>© 2023 - Todos los derechos Reservados</h6>
+
         </div>
     </footer>
 
